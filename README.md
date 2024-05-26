@@ -28,8 +28,11 @@ In plaats van de namen gewoon te tonen in een `TextBox`, doe je het volgende:
 
 Zorg er via twee simpele `TextBox`s voor dat je een voornaam en een naam kan ingeven en met behulp van een knop **een nieuwe persoon toevoegt in het tekstbestand (*append*)**. De personen staan in het tekstbestand als `Achternaam,Voornaam`.
 
-## Opdracht 6 (EXTRA): 
+## Opdracht 6: 
 
 Zorg voor eenvoudige validatie op de nieuwe personen: zorg dat de voornaam en naam niet leeg zijn (voeg de persoon **niet** toe in dit geval). Werp een exception op indien dit wel het geval is. In de UI toon je een MessageBox zodat de gebruiker weet dat het niet gelukt is.
 
+## Opdracht 7: 
+
+Maak de klasse Person abstract, voeg een nieuwe klasse `Politician` toe die afgeleid is van `Person`. Vorm de aanmaak van de personen om zodat ze gebruik maken van `Politician` in plaats van `Person`.  
 
